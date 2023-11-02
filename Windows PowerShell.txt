@@ -1,0 +1,135 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
+
+PS C:\Users\Pablo> cd..
+PS C:\Users> cd..
+PS C:\> e:
+PS E:\> cd .\Prueba\
+PS E:\Prueba> ng new TPF-4
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+CREATE TPF-4/angular.json (2695 bytes)
+CREATE TPF-4/package.json (1036 bytes)
+CREATE TPF-4/README.md (1058 bytes)
+CREATE TPF-4/tsconfig.json (901 bytes)
+CREATE TPF-4/.editorconfig (274 bytes)
+CREATE TPF-4/.gitignore (548 bytes)
+CREATE TPF-4/tsconfig.app.json (263 bytes)
+CREATE TPF-4/tsconfig.spec.json (273 bytes)
+CREATE TPF-4/.vscode/extensions.json (130 bytes)
+CREATE TPF-4/.vscode/launch.json (470 bytes)
+CREATE TPF-4/.vscode/tasks.json (938 bytes)
+CREATE TPF-4/src/main.ts (214 bytes)
+CREATE TPF-4/src/favicon.ico (948 bytes)
+CREATE TPF-4/src/index.html (290 bytes)
+CREATE TPF-4/src/styles.css (80 bytes)
+CREATE TPF-4/src/app/app-routing.module.ts (245 bytes)
+CREATE TPF-4/src/app/app.module.ts (393 bytes)
+CREATE TPF-4/src/assets/.gitkeep (0 bytes)
+✔ Packages installed successfully.
+warning: in the working copy of '.editorconfig', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.vscode/extensions.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.vscode/launch.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.vscode/tasks.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'angular.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+t
+warning: in the working copy of 'src/app/app.component.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app.module.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.app.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.spec.json', LF will be replaced by CRLF the next time Git touches it
+    Successfully initialized git.
+PS E:\Prueba> cd .\TPF-4\
+PS E:\Prueba\TPF-4> cd .\src\
+PS E:\Prueba\TPF-4\src> cd .\app\
+PS E:\Prueba\TPF-4\src\app> mkdir data
+
+
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+
+
+PS E:\Prueba\TPF-4\src\app> cd..
+PS E:\Prueba\TPF-4\src> cd..
+PS E:\Prueba> cd .\TPF-4\
+PS E:\Prueba\TPF-4> ng g c modules/auth --skip-tests
+? Would you like to share pseudonymous usage data about this project with the Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more
+
+Thank you for sharing pseudonymous usage data. Should you change your mind, the following
+command will disable this feature entirely:
+
+
+Global setting: enabled
+Local setting: enabled
+Effective status: enabled
+CREATE src/app/modules/auth/auth.component.ts (194 bytes)
+CREATE src/app/modules/auth/auth.component.css (0 bytes)
+UPDATE src/app/app.module.ts (475 bytes)
+PS E:\Prueba\TPF-4> ng g c modules/auth/login --skip-tests
+CREATE src/app/modules/auth/login/login.component.ts (198 bytes)
+CREATE src/app/modules/auth/login/login.component.css (0 bytes)
+UPDATE src/app/app.module.ts (566 bytes)
+PS E:\Prueba\TPF-4> ng g c modules/auth/register --skip-tests
+CREATE src/app/modules/auth/register/register.component.ts (210 bytes)
+CREATE src/app/modules/auth/register/register.component.css (0 bytes)
+UPDATE src/app/app.module.ts (669 bytes)
+PS E:\Prueba\TPF-4> ng g c modules/travels/newTravel --skip-tests
+CREATE src/app/modules/travels/new-travel/new-travel.component.ts (217 bytes)
+CREATE src/app/modules/travels/new-travel/new-travel.component.css (0 bytes)
+UPDATE src/app/app.module.ts (781 bytes)
+PS E:\Prueba\TPF-4> ng g c modules/travels/editTravel --skip-tests
+CREATE src/app/modules/travels/edit-travel/edit-travel.component.ts (221 bytes)
+CREATE src/app/modules/travels/edit-travel/edit-travel.component.css (0 bytes)
+UPDATE src/app/app.module.ts (897 bytes)
+PS E:\Prueba\TPF-4> ng g c modules/travels/listTravel --skip-tests
+CREATE src/app/modules/travels/list-travel/list-travel.component.ts (221 bytes)
+CREATE src/app/modules/travels/list-travel/list-travel.component.css (0 bytes)
+UPDATE src/app/app.module.ts (1013 bytes)
+PS E:\Prueba\TPF-4> ng g c modules/users/newUser --skip-tests
+CREATE src/app/modules/users/new-user/new-user.component.ts (209 bytes)
+UPDATE src/app/app.module.ts (1115 bytes)
+CREATE src/app/modules/users/list-user/list-user.component.html (24 bytes)
+CREATE src/app/modules/users/list-user/list-user.component.css (0 bytes)
+UPDATE src/app/app.module.ts (1221 bytes)
+CREATE src/app/modules/users/edit-user/edit-user.component.html (24 bytes)
+CREATE src/app/modules/users/edit-user/edit-user.component.ts (213 bytes)
+UPDATE src/app/app.module.ts (1327 bytes)
+PS E:\Prueba\TPF-4> ng g c shared/navbar --skip-tests
+CREATE src/app/shared/navbar/navbar.component.html (21 bytes)
+CREATE src/app/shared/navbar/navbar.component.ts (202 bytes)
+CREATE src/app/shared/navbar/navbar.component.css (0 bytes)
+UPDATE src/app/app.module.ts (1333 bytes)
+PS E:\Prueba\TPF-4> ng g c shared/footer --skip-tests
+CREATE src/app/shared/footer/footer.component.html (21 bytes)
+CREATE src/app/shared/footer/footer.component.ts (202 bytes)
+CREATE src/app/shared/footer/footer.component.css (0 bytes)
+UPDATE src/app/app.module.ts (1422 bytes)
+PS E:\Prueba\TPF-4> ng g c shared/header --skip-tests
+CREATE src/app/shared/header/header.component.html (21 bytes)
+CREATE src/app/shared/header/header.component.ts (202 bytes)
+CREATE src/app/shared/header/header.component.css (0 bytes)
+UPDATE src/app/app.module.ts (1511 bytes)
+PS E:\Prueba\TPF-4> ng g i core/entity --skip-tests
+Error: Unknown argument: skip-tests
+PS E:\Prueba\TPF-4> ng g i core/entity
+CREATE src/app/core/entity.ts (28 bytes)
+PS E:\Prueba\TPF-4> ng g m core/models --flat
+CREATE src/app/core/models.module.ts (192 bytes)
+PS E:\Prueba\TPF-4> ng g s core/services/api --flat
+CREATE src/app/core/services/api.service.spec.ts (342 bytes)
+CREATE src/app/core/services/api.service.ts (132 bytes)
+PS E:\Prueba\TPF-4> ng g s core/services/auth --flat
+CREATE src/app/core/services/auth.service.spec.ts (347 bytes)
+CREATE src/app/core/services/auth.service.ts (133 bytes)
+PS E:\Prueba\TPF-4>

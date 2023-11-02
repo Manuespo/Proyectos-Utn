@@ -1,0 +1,13 @@
+<!-- <p>list-travel works!</p> -->
+<div class="center-container" data-interval="1000" data-bs-ride="carousel" id="carouselExampleInterval">
+  <carousel>
+    <slide *ngFor="let slide of listaViajes ;index as i" style="border: 3rem outset rgba(102, 102, 112, 0.555);">
+      <img [src]="slide.imagen" alt="{{slide.lugar}}" width="700" height="400" id="miImagen">
+      <div class="carousel-caption">
+        <p style="color:greenyellow">Destino N°: {{i+1}}</p>
+        <h1 style="color:greenyellow"(click)=" mostrarMensaje(slide)"> [Click aqui]</h1>
+        <!--   <p>{{slide.description}}</p>  -->
+      </div>
+    </slide>
+  </carousel>
+</div>

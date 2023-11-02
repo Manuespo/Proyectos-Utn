@@ -1,0 +1,115 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "lastName":"",
+      "name":"",
+      "dni":"",
+      "fechaNac":"",
+      "email": "admin@gmail.com",
+      "userName": "admin",
+      "password": "admin123"
+    }
+  ],
+  "persons": [
+ 
+  ],
+  "travels": [
+    {
+      "id": 1,
+      "provincia": "Buenos Aires",
+      "lugar": "Mar del Plata",
+      "actividades_que_se_realizan": "Playa, surf, casino, gastronomía",
+      "imagen": "https://playastop.com/wp-content/uploads/2019/04/Mar-del-Plata.jpg",
+      "descripcion": "Mar del Plata es uno de los destinos turísticos más populares de Argentina, conocido por sus playas, deportes acuáticos y vida nocturna."
+    },
+    {
+      "id": 2,
+      "provincia": "Mendoza",
+      "lugar": "Parque Nacional Aconcagua",
+      "actividades_que_se_realizan": "Trekking, montañismo, observación de la naturaleza",
+      "imagen": "https://s3-cdn.designerjourneys.com/expert/2499/images/proposal/35593/nicolas-perez-eNWcXCbE5fI-unsplash-1--1618222864315.jpg",
+      "descripcion": "El Parque Nacional Aconcagua es el hogar de la montaña más alta de América del Sur y atrae a excursionistas y amantes de la naturaleza de todo el mundo."
+    },
+    {
+      "id": 3,
+      "provincia": "Salta",
+      "lugar": "Cafayate",
+      "actividades_que_se_realizan": "Degustación de vinos, paisajes naturales",
+      "imagen": "https://cdn.getyourguide.com/img/location/5dc92946e7d33.jpeg/88.jpg",
+      "descripcion": "Cafayate es famoso por sus bodegas y viñedos, y ofrece impresionantes paisajes de montañas y cañones."
+    },
+    {
+      "id": 4,
+      "provincia": "Santa Cruz",
+      "lugar": "Glaciar Perito Moreno",
+      "actividades_que_se_realizan": "Trekking en hielo, cruceros, observación de glaciares",
+      "imagen": "https://gigantespatagones.com.ar/wp-content/uploads/2019/05/glaciar-perito-moreno-parque.jpg",
+      "descripcion": "El Glaciar Perito Moreno es uno de los glaciares más impresionantes del mundo y un destino imperdible en la Patagonia argentina."
+    },
+    {
+      "id": 5,
+      "provincia": "Córdoba",
+      "lugar": "Sierras de las Quijadas",
+      "actividades_que_se_realizan": "Senderismo, observación de aves, geología",
+      "imagen": "https://3.bp.blogspot.com/-OpQq06KnH-o/UHdObchoMZI/AAAAAAAAEqc/7uN26Z9_r20/s1600/Cuyo+2009+066.jpg",
+      "descripcion": "Las Sierras de las Quijadas ofrecen un paisaje desértico único y oportunidades para explorar la belleza natural y la historia geológica."
+    },
+    {
+      "id": 6,
+      "provincia": "Jujuy",
+      "lugar": "Quebrada de Humahuaca",
+      "actividades_que_se_realizan": "Turismo cultural, senderismo, observación de paisajes",
+      "imagen": "https://wallpapercave.com/wp/wp8903417.jpg",
+      "descripcion": "La Quebrada de Humahuaca es famosa por su belleza natural y su patrimonio cultural, con pueblos antiguos y espectaculares formaciones rocosas."
+    },
+    {
+      "id": 7,
+      "provincia": "Tierra del Fuego",
+      "lugar": "Ushuaia",
+      "actividades_que_se_realizan": "Navegación, esquí, turismo antártico",
+      "imagen": "http://5b0988e595225.cdn.sohucs.com/images/20200315/66cfdfccae064d048e0fc1fc6c44ff58.jpeg",
+      "descripcion": "Ushuaia es la ciudad más austral del mundo y es conocida como 'el fin del mundo', ofreciendo oportunidades únicas de aventura y exploración."
+    },
+    {
+      "id": 8,
+      "provincia": "San Juan",
+      "lugar": "Valle de la Luna",
+      "actividades_que_se_realizan": "Geología, senderismo, observación astronómica",
+      "imagen": "https://wallpapercave.com/wp/wp4202058.jpg",
+      "descripcion": "El Valle de la Luna es un paisaje lunar en la Tierra, conocido por su geología única y su cielo estrellado impresionante."
+    },
+    {
+      "id": 9,
+      "provincia": "Neuquén",
+      "lugar": "Villa La Angostura",
+      "actividades_que_se_realizan": "Esquí, deportes acuáticos, senderismo",
+      "imagen": "https://www.rionegro.com.ar/wp-content/uploads/2020/08/villa-la-angostura-vista.jpg",
+      "descripcion": "Villa La Angostura es un destino de montaña que ofrece actividades al aire libre en todas las estaciones del año."
+    },
+    {
+      "id": 10,
+      "provincia": "San Luis",
+      "lugar": "Sierras de las Quijadas",
+      "actividades_que_se_realizan": "Senderismo, observación de aves, geología",
+      "imagen": "https://i.pinimg.com/originals/e8/4c/c2/e84cc299e4e37e5aa10b819c31993404.jpg",
+      "descripcion": "San Luis cuenta con hermosas sierras y paisajes naturales, ideales para el senderismo y la observación de aves."
+    },
+    {
+      "id": 11,
+      "provincia": "Córdoba",
+      "lugar": "Villa General Belgrano",
+      "actividades_que_se_realizan": "Fiesta de la cerveza, turismo rural, gastronomía",
+      "imagen": "https://i.pinimg.com/originals/61/30/29/613029ffc539dede5e1bfc420181518b.jpg",
+      "descripcion": "Villa General Belgrano es conocida por su herencia alemana y la celebración de la Fiesta Nacional de la Cerveza."
+    },
+    {
+      "id": 12,
+      "provincia": "Buenos Aires",
+      "lugar": "Tigre",
+      "actividades_que_se_realizan": "Paseos en lancha, kayak, museos",
+      "imagen": "https://images.rove.me/w_1920,q_85/wnkhqphpchog6wi0orqd/buenos-aires-getaway-to-tigre.jpg",
+      "descripcion": "Tigre es un lugar encantador cerca de Buenos Aires, con canales, islas y actividades acuáticas para disfrutar."
+    }
+  ]
+}
